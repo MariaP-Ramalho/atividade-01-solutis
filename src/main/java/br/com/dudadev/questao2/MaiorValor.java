@@ -3,7 +3,7 @@ package br.com.dudadev.questao2;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Main {
+public class MaiorValor {
 
     public static void main(String[] args) {
 
