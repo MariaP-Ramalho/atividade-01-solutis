@@ -17,7 +17,7 @@ public class DiaDaSemana {
                 "Quinta-feira",
                 "Sexta-feira",
                 "Sábado",
-                "Domingo" 
+                "Domingo"
         };
 
         try {
