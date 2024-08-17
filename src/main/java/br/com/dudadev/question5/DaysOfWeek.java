@@ -3,13 +3,13 @@ package br.com.dudadev.question5;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class DiaDaSemana {
+public class DaysOfWeek {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int dia;
+        int day;
 
-        String[] diasDaSemana = {
+        String[] daysOfWeek = {
                 "Inválido",
                 "Segunda-feira",
                 "Terça-feira",
@@ -22,12 +22,12 @@ public class DiaDaSemana {
 
         try {
             System.out.print("Digite um número de 1 a 7 para o dia da semana: ");
-            dia = sc.nextInt();
+            day = sc.nextInt();
 
-            if (dia < 1 || dia > 7) {
+            if (day < 1 || day > 7) {
                 System.out.println("Número inválido. Por favor, insira um número de 1 a 7.");
             } else {
-                System.out.println("Dia da semana correspondente: " + diasDaSemana[dia]);
+                System.out.println("Dia da semana correspondente: " + daysOfWeek[day]);
             }
         } catch (InputMismatchException e) {
             System.out.println("Entrada inválida. Por favor, insira um número inteiro de 1 a 7.");
