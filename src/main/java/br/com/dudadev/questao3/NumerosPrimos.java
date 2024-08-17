@@ -18,12 +18,12 @@ public class NumerosPrimos {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int num;
 
         try {
             System.out.print("Digite um número inteiro positivo: ");
-            num = scanner.nextInt();
+            num = sc.nextInt();
 
             if (num < 0) {
                 System.out.println("Número inválido. Por favor, insira um número inteiro positivo.");
@@ -41,6 +41,6 @@ public class NumerosPrimos {
             }
         }
 
-        scanner.close();
+        sc.close();
     }
 }

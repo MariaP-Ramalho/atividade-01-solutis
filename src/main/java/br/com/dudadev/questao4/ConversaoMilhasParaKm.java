@@ -5,12 +5,12 @@ import java.util.Scanner;
 
 public class ConversaoMilhasParaKm {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         double milhas;
 
         try {
             System.out.print("Digite a distância em milhas: ");
-            milhas = scanner.nextDouble();
+            milhas = sc.nextDouble();
 
             double quilômetros = milhas * 1.609;
 
@@ -19,6 +19,6 @@ public class ConversaoMilhasParaKm {
             System.out.println("Entrada inválida. Por favor, insira um número decimal válido.");
         }
 
-        scanner.close();
+        sc.close();
     }
 }

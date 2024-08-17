@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class DiaDaSemana {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int dia;
 
         String[] diasDaSemana = {
@@ -22,7 +22,7 @@ public class DiaDaSemana {
 
         try {
             System.out.print("Digite um número de 1 a 7 para o dia da semana: ");
-            dia = scanner.nextInt();
+            dia = sc.nextInt();
 
             if (dia < 1 || dia > 7) {
                 System.out.println("Número inválido. Por favor, insira um número de 1 a 7.");
@@ -33,6 +33,6 @@ public class DiaDaSemana {
             System.out.println("Entrada inválida. Por favor, insira um número inteiro de 1 a 7.");
         }
 
-        scanner.close();
+        sc.close();
     }
 }
