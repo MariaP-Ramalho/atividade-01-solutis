@@ -3,9 +3,9 @@ package br.com.dudadev.question3;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class NumerosPrimos {
+public class PrimeNumbers {
 
-    public static boolean VerificaPrimo(int num) {
+    public static boolean checkPrime(int num) {
         if (num <= 1) {
             return false;
         }
@@ -36,7 +36,7 @@ public class NumerosPrimos {
 
         System.out.println("Números primos menores que " + num + ":");
         for (int i = 2; i < num; i++) {
-            if (VerificaPrimo(i)) {
+            if (checkPrime(i)) {
                 System.out.println(i);
             }
         }
