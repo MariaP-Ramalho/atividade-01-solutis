@@ -1,4 +1,4 @@
-package br.com.dudadev.questao7;
+package br.com.dudadev.question7;
 
 public class DivisaoMultiplosDeTres {
     public static void main(String[] args) {

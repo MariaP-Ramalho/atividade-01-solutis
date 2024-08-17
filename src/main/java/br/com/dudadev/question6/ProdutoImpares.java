@@ -1,4 +1,4 @@
-package br.com.dudadev.questao6;
+package br.com.dudadev.question6;
 
 public class ProdutoImpares {
 

@@ -1,4 +1,4 @@
-package br.com.dudadev.questao8;
+package br.com.dudadev.question8;
 
 import java.util.Scanner;
 

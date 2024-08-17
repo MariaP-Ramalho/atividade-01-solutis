@@ -1,4 +1,4 @@
-package br.com.dudadev.questao4;
+package br.com.dudadev.question4;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
