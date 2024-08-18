@@ -8,6 +8,12 @@ public class CharacterCount {
 
     static Scanner sc = new Scanner(System.in);
 
+    public static void main(String[] args) {
+        System.out.println("Insira uma frase: ");
+        String text = sc.nextLine();
+        characterCount(text);
+    }
+
     private static String removeAccents(String text) {
         String normalized = Normalizer.normalize(text, Normalizer.Form.NFD);
         return normalized.replaceAll("\\p{M}", "");
@@ -43,11 +49,5 @@ public class CharacterCount {
 
     private static boolean isVowel(char c) {
         return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
-    }
-
-    public static void main(String[] args) {
-        System.out.println("Insira uma frase: ");
-        String text = sc.nextLine();
-        characterCount(text);
     }
 }

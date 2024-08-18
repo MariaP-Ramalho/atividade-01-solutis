@@ -4,6 +4,16 @@ import java.util.Scanner;
 
 public class CheckWord {
 
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Insira uma palavra para descobrir se é um palíndromo");
+        String word = sc.nextLine();
+
+        System.out.println(checkPalindrome(word));
+    }
+
     public static String checkPalindrome(String word) {
 
         String cleanWord = word.replaceAll("\\s+", "").toLowerCase();
@@ -18,14 +28,5 @@ public class CheckWord {
         return "A palavra '" + word + "' é um palíndromo.";
     }
 
-    public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Insira uma palavra para descobrir se é um palíndromo");
-        String word = sc.nextLine();
-
-        System.out.println(checkPalindrome(word));
-    }
 }
 
